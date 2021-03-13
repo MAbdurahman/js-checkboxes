@@ -1,0 +1,64 @@
+
+/* =========================================
+            Website Resets
+============================================ */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-family: 'Inconsolata', monospace;
+}
+
+*::-moz-focus-inner {
+    border: 0;
+}
+
+*:focus {
+    outline: none;
+}
+body {
+    background-color: #555;
+    color: #bbb;
+}
+
+.center-wrapper {
+    width: 50%;
+    margin: 2em auto;
+}
+.sub-heading {
+    margin-bottom: 1em;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+#weekday-list {
+    width: 75%;
+    margin: 0 auto;
+}
+#weekday-list li {
+    list-style-type: none;
+    font-size: 1.25rem;
+
+}
+input[type='checkbox'] .day {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.day-label {
+    margin-left: .5em;
+    cursor: pointer;
+}
+
+p#workdays {
+    text-align: center;
+    font-size: 1.5rem;
+}

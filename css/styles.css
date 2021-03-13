@@ -62,3 +62,55 @@ p#workdays {
     text-align: center;
     font-size: 1.5rem;
 }
+/*Desktop First Common Breakpoints*/
+
+
+/*tablet landscape and desktop layout (960px or more) */
+@media only screen and (min-width: 960px) {
+    /*...tablet landscape and desktop styles */
+}
+
+/*table portrait layout (768px to 959px) */
+@media only screen and (max-width: 1024px) {
+    /*... tablet portrait styles */
+    html {
+        font-size: 83.3%;
+    }
+
+    .center-wrapper {
+
+        margin: 3em auto;
+    }
+}
+
+/*mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 768px) {
+    /*...mobile landscape styles */
+    html {
+        font-size: 75%;
+    }
+    .center-wrapper {
+        margin: 5em auto;
+        margin-bottom: 2em;
+    }
+    .sub-heading {
+        font-size: 1.25rem;
+    }
+    p#workdays {
+        font-size: 1.25rem;
+    }
+}
+
+/*mobile portrait layout (479px or less) */
+@media only screen and (max-width: 479px) {
+    /*...mobile portrait styles */
+    html {
+        font-size: 62.5%;
+    }
+    .center-wrapper {
+        width: 75%;
+    }
+    p#workdays {
+        font-size: 1rem;
+    }
+}
